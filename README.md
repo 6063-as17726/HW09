@@ -1,60 +1,6 @@
-# p5.js Template
-
-This is a README file that can be used to describe and document your assignment.
-
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
-
----
----
-
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+For this week's asasignment, I chose the p5.pattern.js https://github.com/SYM380/p5.pattern/blob/main/p5.pattern.jslibrary
+My idea for the assignment was to create a grid and create abstract patterns in each of them. I believe I was able to implement exactly what I had envisioned. 
+I found it very challenging to link the library to begin with. I was not aware that I had to download the library and place it near the sketch.js. 
+Once I got that working, I also struggled with understanding the syntax of the library. It took me a while to go through the different functions before beginning the code. 
+However, once I got a hang of it, I was able to put together the code more easily. 
+Overall, I think I had fun doing this, and quite like the outcome of my code. Also, it made me understand the purpose of using libraries, and how it can make coding more complext things easier. 
