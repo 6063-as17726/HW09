@@ -1,21 +1,26 @@
+//color(178, 203, 245)
+
+
 function setup() {
-	createCanvas(windowWidth, windowHeight);
-	background(250);
-	rectMode(CENTER);
+	createCanvas(600, 600);
+	background(0);
+	rectMode(CENTER); 
+	const t = width/4;
 	
-	// Assuming PTN is a pattern drawing library object with PTN.checked() function
-	let checkedPattern = PTN.checked(20);
-	
-	// Draw a pattern using rectPattern() function
-	rectPattern(width / 2, height / 2, 400, 400, checkedPattern);
-  }
-  
-  function rectPattern(x, y, w, h, pattern) {
-	let patternSize = pattern.size;
-	for (let i = x - w / 2; i < x + w / 2; i += patternSize) {
-	  for (let j = y - h / 2; j < y + h / 2; j += patternSize) {
-		pattern.draw(i, j, patternSize, patternSize);
-	  }
-	}
-  }
-  
+	patternColors([color(0), color(245, 236, 178)]);
+	pattern(PTN.checked(150));
+	rectPattern(0,0, 6000, 6000);
+
+	patternColors([color(245, 236, 178), color(39, 100, 204)]);
+	rectMode(CORNER); 
+	pattern(PTN.stripeCircle(t / 4));
+	rectPattern(0, 0, t, t);
+
+
+
+
+} 
+
+// function draw() { 
+
+// }
